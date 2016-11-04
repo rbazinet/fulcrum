@@ -18,6 +18,8 @@ gem 'jquery-ui-rails'
 gem 'pg', group: :postgres
 gem 'mysql2', group: :mysql
 gem 'sqlite3', group: :sqlite
+gem 'puma'
+gem "skylight"
 
 group :production do
   gem 'rails_12factor'
